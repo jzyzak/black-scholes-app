@@ -1,0 +1,31 @@
+# Ignore node_modules from frontend
+/frontend/node_modules/
+
+# React build output
+/frontend/build/
+
+# Python virtualenv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# System
+.DS_Store
+
+# Frontend specific (was already in your file)
+frontend/.pnp
+frontend/pnp.js
+frontend/coverage/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
